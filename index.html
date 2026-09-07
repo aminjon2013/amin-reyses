@@ -1,0 +1,47 @@
+
+  <div id="portrait-warning">
+    📱<br><br>Поверните телефон в альбомную ориентацию
+  </div>
+
+  <div id="game-container">
+    <div class="ui-layer">
+      <div class="hud">
+        <div>🏎️ Место: <span id="hud-pos">1</span>/3</div>
+        <div>🪙 Монеты: <span id="hud-coins">0</span></div>
+        <div>🏁 Круг: <span id="hud-lap">1</span>/3</div>
+      </div>
+
+      <div class="touch-controls">
+        <div class="touch-group">
+          <div class="touch-btn" id="btn-left">◀️</div>
+          <div class="touch-btn" id="btn-right">▶️</div>
+        </div>
+        <div class="touch-group">
+          <div class="touch-btn" id="btn-brake">🛑</div>
+          <div class="touch-btn" id="btn-gas">🚀</div>
+        </div>
+      </div>
+    </div>
+
+    <div id="main-menu" class="menu-overlay">
+      <h1>🏎️ 3D FORMULA RACING</h1>
+      <p>3D Гонки • Камера от 3-го лица • 3 круга • Монеты</p>
+      <div class="btn-group">
+        <button class="btn" id="offline-btn">🤖 Офлайн — Боты</button>
+        <button class="btn btn-online" id="online-btn">🌐 Онлайн</button>
+      </div>
+    </div>
+
+    <div id="result-menu" class="menu-overlay" style="display:none">
+      <h1 id="res-title">🏆 ПОБЕДА!</h1>
+      <p id="res-desc">Вы финишировали первым!</p>
+      <p id="res-reward" style="font-size:22px;color:#f1c40f;margin-bottom:20px;">
+        Награда: 🪙 200
+      </p>
+      <button class="btn" id="menu-btn">🏠 В меню</button>
+    </div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
